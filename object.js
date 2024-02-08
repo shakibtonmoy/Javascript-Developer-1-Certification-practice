@@ -81,4 +81,5 @@ The object class provides access to various static and instance methods. Some of
 2. entries: Can be used to get all key-value pairs of an object
 3. values: Can be used to get an array of all values
 4. defineProperties: can be used add/modify properties
+5. Freezes: freezes an object such that changes can no longer be made to it
 */
