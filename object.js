@@ -61,3 +61,24 @@ scores.score = 110;
 scores.score = 120;
 console.log(scores.average);
 
+/*
+Javascript can receive any number of arguments in a function. They are automatically captured in arguments variable
+*/
+
+function getAverage(){
+    let sum = 0;
+    for(let i in arguments){
+        sum += arguments[i];
+    }
+    return sum / arguments.length;
+}
+
+console.log(getAverage(1,2,3,4,5,6,7,8,9,10));
+
+/*
+The object class provides access to various static and instance methods. Some of them are:
+1. assign: This static method is used to copy all enumerable own properties from one or more objects to target object
+2. entries: Can be used to get all key-value pairs of an object
+3. values: Can be used to get an array of all values
+4. defineProperties: can be used add/modify properties
+*/
