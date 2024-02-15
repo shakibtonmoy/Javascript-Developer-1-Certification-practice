@@ -162,3 +162,12 @@ cat.sound();
 dog.sound();
 cat.hello();
 dog.hello();
+
+class Human{
+    constructor(name){
+        this.name = name;
+    }
+}
+
+let shakib = new Human('Shakib');
+console.log(shakib);
